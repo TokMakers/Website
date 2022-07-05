@@ -1,34 +1,21 @@
 html {
-    width: 84%;
+    width: 100%;
     height: 100%;
-    margin: 100px;
+    margin: 0px;
     padding: 0;
     background-color: white;
     font-family: 'Oswald', sans-serif;
 }
 
-header {
-
-}
-
-body {
-
-}
-
-article {
-
-}
-
 #menu {
-    text-align: center;
     list-style-type: none;
-    background-color: black;
+    background-color: #25F4EE;
     padding: 10px;
 }
 
 #menu_list {
     display: inline;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
 }
 
 #menu_list_link {
@@ -38,45 +25,72 @@ article {
 }
 
 #menu_list_link_homepage {
-    color: black;
+    color: #FE2C55;
     background-color: white;
     text-decoration: none;
     padding: 21px 21px;
 }
 
 #menu_list_link:hover {
-    color: black;
+    color: #FE2C55;
     background-color: white;
 }
 
 #path {
-    color: lightgrey;
+    color: #FE2C55;
     text-align: left;
     padding: 0px 21px;
 }
 
 #right_menu {
-    text-align: right;
-    margin: 0px 40px;
-    color: black;
+    text-align: center;
+    background-color: #FE2C55;
+    margin: 0px 0px;
+    color: white;
 }
 
 #right_menu_list {
-    text-align: right;
-    margin: 0px 40px;
+    margin: 0px 0px;
     list-style-type: none;
 }
 
 #right_menu_list_link {
-    font-family: Arial;
+    line-height: 180%;
+    text-align: left;
     text-decoration: none;
-    color: black;
+    color: #FE2C55;
 }
 
 #right_menu_list_link:hover {
-    color: blue;
+    color: #25F4EE;
 }
 
-footer {
+#wrapper {
+    border: 1px;
+}
 
+#blog {
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    border: 1px;
+}
+
+#other_links {
+    background-color: white;
+    display: inline-block;
+    width: 19%;
+    height: 100%;
+    border: 1px;
+}
+
+#primary {
+    background-color: #25F4EE;
+}
+
+#secondary {
+    font-size: 11px;
+    margin: 0 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
 }
