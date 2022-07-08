@@ -67,10 +67,13 @@ html {
 
 #wrapper {
     border: 1px;
+    overflow: hidden;
 }
 
 #blog {
     display: inline-block;
+    background-color: white;
+    float: left;
     width: 80%;
     height: 100%;
     border: 1px;
@@ -79,6 +82,7 @@ html {
 #other_links {
     background-color: white;
     display: inline-block;
+    float: left;
     width: 19%;
     height: 100%;
     border: 1px;
@@ -93,4 +97,41 @@ html {
     margin: 0 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
+    display: inline-block;
+    float: left;
+    width: 19%;
+    height: 100%;
+    border: 1px;
+}
+
+#terms_privacy {
+    font-size: 11px;
+    margin: 0 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    display: inline-block;
+    float: left;
+    width: 70%;
+    height: 100%;
+    border: 1px;
+}
+
+#terms_privacy_list_link {
+    display: inline-block;
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    font-size: 11px;
+    margin: 0 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    display: inline-block;
+    float: right;
+    width: 15%;
+    height: 100%;
+    border: 1px;
+}
+
+#terms_privacy_list_link:hover {
+    color: blue;
 }
